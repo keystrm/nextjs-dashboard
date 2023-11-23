@@ -31,8 +31,7 @@ export default async function InvoicesTable({
                         className="mr-2 rounded-full"
                         width={28}
                         height={28}
-                        alt="temp"
-                        // alt={`${invoice.name}'s profile picture`}
+                        alt={`${invoice.name}'s profile picture`}
                       />
                       <p>{invoice.name}</p>
                     </div>
@@ -91,6 +90,7 @@ export default async function InvoicesTable({
                         className="rounded-full"
                         width={28}
                         height={28}
+                        alt="missed"
                       />
                       <p>{invoice.name}</p>
                     </div>
